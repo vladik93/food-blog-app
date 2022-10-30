@@ -1,0 +1,37 @@
+.promoCarousel {
+    overflow: hidden;
+}
+
+.promoCarousel .inner {
+    white-space: nowrap;
+    transition: transform 0.3s;
+}
+
+.carouselItem {
+    display: inline-flex;
+    align-items: center;
+    height: 400px;
+    cursor: pointer;
+}
+
+
+.promoCarousel .indicators {
+    display: flex;
+    justify-content: center;
+}
+
+.promoCarousel .indicators button {
+    margin: 5px;
+    border-radius: 20px;
+    border: none;
+}
+
+.promoCarousel .indicators button.move {
+    background: none;
+}
+
+.promoCarousel .indicators button.active {
+    background-color: #000;
+    color: #fff;
+}
+

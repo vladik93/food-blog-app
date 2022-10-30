@@ -1,0 +1,21 @@
+.header {
+    display: grid;
+    /* background: red; */
+    border-bottom: 0.5px solid #000;
+    grid-template-columns: 1fr  1fr 1fr;
+    grid-template-rows: 130px;
+}
+
+.header .col {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.header img {
+    width: 250px;
+    height: 250px;
+}
+
+
